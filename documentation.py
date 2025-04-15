@@ -41,7 +41,7 @@ def document_code():
         return jsonify({"documentation": docs})  
         
     except Exception as e:  
-        # return jsonify({"error": str(e)}), 500  
+        return jsonify({"error": str(e)}), 500  
 
 @app.route('/ask', methods=['POST'])  
 def ask_question():  
