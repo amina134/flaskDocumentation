@@ -1,0 +1,16 @@
+# Try this sample code in the web interface:
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+
+
+
+
+def add(a, b):  
+    return a + b  
+
+
+What types of inputs can be used with the add function?
